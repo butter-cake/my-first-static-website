@@ -1,0 +1,10 @@
+.likeButton {
+  height: 50px;
+  width: 100px;
+}
+
+.dislikeButton {
+  height: 50px;
+  width: 100px;
+  margin-left: 50px;
+}
