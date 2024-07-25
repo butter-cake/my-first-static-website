@@ -18,6 +18,8 @@ function App() {
     },
   ];
 
+  /*Comment */
+
   const listMovies = movies.map((movie) => (
     <li>
       <MovieCard movie={movie} />
