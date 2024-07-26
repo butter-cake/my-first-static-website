@@ -1,0 +1,31 @@
+.cardContainer {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+  background-color: black;
+  width: 350px;
+  border-radius: 5px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+.cardContainer:hover {
+  outline-color: rgb(225, 225, 225);
+  outline-style: solid;
+  outline-width: 1px;
+  cursor: pointer;
+}
+
+.cardImageContainer {
+  height: 100%;
+  width: 80%;
+}
+
+.cardImage {
+  height: 100%;
+  width: 100%;
+}

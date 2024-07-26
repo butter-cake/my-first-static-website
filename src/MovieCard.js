@@ -1,12 +1,15 @@
 import Buttons from "./MyButton";
+import "./MovieCard.css";
 
 function MovieCard({ movie }) {
   return (
-    <>
+    <div className="cardContainer">
       <h2>{movie.title}</h2>
-      <img src={movie.imgSrc} />
+      <div className="cardImageContainer">
+        <img src={movie.imgSrc} className="cardImage" />
+      </div>
       <Buttons />
-    </>
+    </div>
   );
 }
 

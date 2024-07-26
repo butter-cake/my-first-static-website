@@ -1,7 +1,46 @@
-/* .movieListContainer {
-  display:
-} */
+.recentMovieListContainer {
+  /* background-color: green; */
+  height: 600px;
+}
+
+.recentMovieTitle {
+  color: white;
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-left: 50px;
+  /* background-color: blue; */
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.title {
+  font-size: 50px;
+}
 
 .movieList {
   list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  overflow-y: hidden;
+}
+
+.classicMovieListContainer {
+  height: 600px;
+  margin-top: 50px;
+}
+
+.classicMovieTitle {
+  color: white;
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-left: 50px;
 }

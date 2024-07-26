@@ -1,10 +1,29 @@
 .likeButton {
   height: 50px;
   width: 100px;
+  transition: 0.25s;
+  margin-bottom: 30px;
+}
+
+.likeButton:hover {
+  background-color: rgba(58, 198, 58, 0.804);
+  border-color: green;
+  border-style: solid;
+  border-radius: 10px;
+  cursor: pointer;
 }
 
 .dislikeButton {
   height: 50px;
   width: 100px;
   margin-left: 50px;
+  transition: 0.25s;
+}
+
+.dislikeButton:hover {
+  background-color: rgb(199, 76, 76);
+  border-color: rgb(243, 45, 45);
+  border-style: solid;
+  border-radius: 10px;
+  cursor: pointer;
 }
